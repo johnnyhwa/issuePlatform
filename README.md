@@ -3,9 +3,9 @@
 ### 前端部分
 BUG平台在开需求上被定为一个界面简洁清爽，操作便利，用于内部常见代码问题分享和交流的[单页面应用](https://baike.baidu.com/item/SPA/17536313#viewPageContent)，因此前端部分打算采用相对于`react`、`angular`，稍轻量一些的`Vue`作为框架，同时`Vue`在国内社区具有更为友善的API作为支持，很大程度上能自主解决开发时候遇到的一些问题，提高开发效率。
 > 项目SVN：http://172.6.3.91:81/svn/project/issuePlatform
-安装模块 `npm install`
-启动调试 `npm run dev`
-打包发布 `npm run build` / `npm run build --report`
+> 安装模块 `npm install`
+> 启动调试 `npm run dev`
+> 打包发布 `npm run build` / `npm run build --report`
 ---
 ##### 涉及技术
 
@@ -25,10 +25,10 @@ BUG平台在开需求上被定为一个界面简洁清爽，操作便利，用�
 ### Nodejs部分
 后端方面采用基于node.js，快速简介的web框架**`express`**，数据库使用Nosql的`mongodb`
 > 项目SVN：http://172.6.3.91:81/svn/project/nodeServer
-  安装模块 `npm install`
-  启动调试 `npm start` 相当于`node ./bin/www`
-  supervisor监听启动 `supervisor ./bin/www`
-  pm2 负载均衡启动 `pm2 start ./bin/www --name xxx --watch`
+> 安装模块 `npm install`
+> 启动调试 `npm start` 相当于`node ./bin/www`
+> supervisor监听启动 `supervisor ./bin/www`
+> pm2 负载均衡启动 `pm2 start ./bin/www --name xxx --watch`
 ---
 ##### 涉及技术
 
