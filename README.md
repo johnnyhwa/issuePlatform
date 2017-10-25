@@ -26,6 +26,7 @@ BUG平台在开需求上被定为一个界面简洁清爽，操作便利，用�
 ### Nodejs部分
 后端方面采用基于node.js，快速简介的web框架**`express`**，数据库使用Nosql的`mongodb`
 > 项目SVN：http://172.6.3.91:81/svn/project/nodeServer
+
 > 安装模块 `npm install`
 > 启动调试 `npm start` 相当于`node ./bin/www`
 > supervisor监听启动 `supervisor ./bin/www`
